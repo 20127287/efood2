@@ -46,10 +46,6 @@
     filter: brightness(85%);
 }
 
-.cart-btn__marginTop{
-    margin-top: 100px;
-}
-
 .cart-table {
     border: 1px solid black;
     margin-top: 30px;
@@ -78,6 +74,8 @@
 .cart-input{
     text-indent: 30px;
     background-color: transparent;
+    border: none;
+    outline: none;
 }
 
 .cart-textarea {
@@ -96,7 +94,7 @@
     position: relative;
 }
 #table-scroll {
-    height: 286px;
+    height: 284px;
     overflow: auto;
     border: 1px solid black;
 }
@@ -156,6 +154,7 @@
     background-color: transparent;
     transition: color 0.2s;
     font-size: 20px;
+    border: none;
 }
 
 #btn--add:hover,
