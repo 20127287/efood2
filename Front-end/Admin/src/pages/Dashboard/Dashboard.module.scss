@@ -1,0 +1,95 @@
+.wrapper {
+    // margin-top: 80px;
+    padding: 12px;
+    display: block;
+    // width: 85%;
+}
+//title
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.title-name {
+    padding-right: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+//filter
+.filter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+//form
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    padding-top: 6px;
+    .title-form {
+        text-align-last: center;
+    }
+}
+
+form * {
+    font-size: 1.8rem;
+}
+
+form:hover {
+    cursor: default;
+}
+
+.product-list {
+    border: 2px solid #d9d9d9;
+    width: 90%;
+    margin: auto;
+}
+.product-list-content {
+    padding: 10px 0px 8px 12px;
+}
+.product-list-title {
+    font-size: 2.5rem;
+}
+.product-list-btn {
+    padding: 8px 24px;
+
+    &:active {
+        opacity: 0.6;
+    }
+}
+.box-btn {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 3rem;
+    margin-right: 7rem;
+    .btn-submit {
+        font-size: 20px;
+        padding: 1.5rem 9rem 1.5rem 1.5rem;
+        span,
+        div {
+            display: block;
+        }
+        #btn-submit-money {
+            margin-top: 1rem;
+            text-align: start;
+        }
+        #btn-submit-icon {
+            position: absolute;
+            top: 20px;
+            right: 15px;
+            font-size: 4rem;
+        }
+    }
+}
+
+p:hover,
+h4:hover {
+    cursor: default;
+}

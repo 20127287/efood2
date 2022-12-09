@@ -1,0 +1,128 @@
+.navbar {
+    width: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .navbar__avt{
+        background-repeat: no-repeat;
+        display: block;
+        background-color: #000;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 17%;    
+        left: 16%;
+        overflow: hidden;
+        position: absolute;
+        top: 4%;
+        width: 61%;
+        z-index: 1;
+        
+        .background{
+            object-fit: cover;
+            width: 130px;
+            height: 130px;
+        }
+    }
+
+    .nickname{
+        z-index: 1;
+        font-weight: 600;
+        left: 22%;
+        font-size: 22px;
+        top: 24%;
+        cursor: pointer;
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    .choose__avt{
+        height: 40px;
+        align-items: center;
+        background-color: #fff;
+        border: 1px solid gray;
+        border-radius: 50%;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 30%);
+        display: flex;
+        justify-content: center;
+        left: 53%;
+        top: 18%;
+        width: 40px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .choose__avt:hover{
+        background-color: rgb(221, 238, 253);
+    }
+    
+    input[type="file"]
+    {
+        display: none;
+    }
+    
+    .choose__avt label{
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        left: 1%;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .navbar__list {
+        margin-top: 250px;
+        list-style: none;
+        padding-left: 0;
+
+        .navbar__item {
+            font-size: 20px;
+            font-weight: 450;
+            padding: 8px 0;
+            margin: 12px 0;
+        }
+
+        .navbar__item:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+
+        .navbar__item--actived .navbar__item-link {
+            color: #fe7c4b;
+        }
+
+        .navbar__item-link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navbar__item-icon {
+            margin-right: 10px;
+        }
+    }
+
+    .navbar__logout {
+        margin-top: auto;
+        margin-bottom: 30px;
+    }
+
+    .navbar__logout:hover {
+        opacity: 0.8;
+    }
+
+    .navbar__logout-link {
+        font-size: 22px;
+        font-style: italic;
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar__item-icon-logout {
+        margin-right: 5px;
+    }
+}
